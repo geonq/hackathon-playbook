@@ -11,4 +11,8 @@ The listing checked on 15 October 2026 says Saturday 17 October at Taxfix SE, KÃ
 
 At kickoff, discover the actual problem owner, user workflow, approved data, required output, demo/submission timing, and safety constraints before selecting a product idea. The preceding Berlin conversation page described a future nonprofit/public-institution challenge and donated/open-source work. Treat that as series context only; ask about the actual partner, IP, license, data, and handoff rules for this lab.
 
+From the repository root, read `docs/EVENT_DAY_STRATEGY.md` and `templates/competition-plan.md` to clear participant, team, deliverable, data, pre-build, and reuse rules before locking an idea. The public listing does not establish a pre-build policy. Tool/account setup is distinct from event-related API/model experiments, prompts, code, and project assets; do those only when the organizer's rules explicitly allow them.
+
 The exact challenge, team size, official rubric, tool requirements, API-credit mechanics, pre-build policy, and binding IP rules were not published in the primary listing checked on 15 October. Label recommendations as recommendations, not event criteria. Use `problem-framing`, `scope-to-demo`, and `demo-review` as the build progresses.
+
+If also attending Nebius Build Week the next day, keep project materials separate. Reuse Saturday code, data, prompts, assets, or a project on Sunday only if both event rule sets or organizers explicitly permit it; disclose reuse when required.

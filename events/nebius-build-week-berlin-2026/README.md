@@ -45,9 +45,19 @@ The organizer's Luma listings say attendance at all three Build Week events may 
 
 ## A practical way to compete
 
+Use the [event-day rules and idea strategy](../../docs/EVENT_DAY_STRATEGY.md) and fill the [competition plan](../../templates/competition-plan.md) before locking an idea. Confirm main-track eligibility and any subchallenge eligibility separately, along with pre-event work, required technology, approved data, submissions, and reuse/IP terms. An unanswered rule is unresolved; do not assume one entry qualifies for a separate challenge or award.
+
 Pick a narrow user problem that fits one track. Show one end-to-end workflow and make the sponsor technology visibly useful to it. For an agent or search workflow, test representative questions, check that sources support the output, and make uncertainty visible. For infrastructure work, show a working endpoint or evaluation path and report a measured result. These are preparation suggestions, not an official rubric.
 
-Before building, confirm the submission format, team-size rules, required technology, available credits/quotas, allowed data, pre-build policy, and judging criteria. Keep sensitive healthcare or other personal information out of unapproved services. Use only credentials issued or approved for the event and keep them out of the repository.
+Before building or making a live API/model request, confirm the submission format, team-size rules, required technology, available credits/quotas, allowed data, pre-build policy, and judging criteria. Installing tools or checking permitted account readiness does not grant permission for event-specific code or API/model experiments. Keep sensitive healthcare or other personal information out of unapproved services. Use only credentials issued or approved for the event and keep them out of the repository.
+
+### Nemotron challenge preparation
+
+The official listing confirms a dedicated NVIDIA Nemotron challenge through Token Factory, but it does not specify eligible model IDs, minimum use, separate registration or submission, or whether an entry can qualify for both a main track and the Nemotron challenge. Ask the organizers. Do not hardcode a model ID or treat a model's appearance in the public catalog as confirmation of event eligibility or account access.
+
+If the organizers confirm that one project may enter both, build one coherent user workflow where Nemotron has a necessary, visible role and keep a Token Factory request trace with secrets and private data removed. Once rules permit live tests, a useful internal evaluation is about 8–12 approved cases plus a baseline on the same cases. Record the model ID actually used, endpoint, request configuration, test date, task success, unsupported assertions, latency, failures, and token counts when returned. Test any required JSON schema or tool flow against that exact model. Bound concurrency and retries. If the live demo uses a fallback instead of Nemotron, disclose what ran. Keep any earlier verified Nemotron test trace separate and do not imply the fallback itself proves Nemotron execution.
+
+If also attending the Claude Impact Lab the day before, keep the projects and materials separate. Reuse Saturday code, data, prompts, assets, or a project only if both events' rules or organizers explicitly permit it; disclose reuse when required.
 
 Use the [prep checklist](prep-checklist.md), [project brief](../../templates/project-brief.md), [decision log](../../templates/decision-log.md), and [submission checklist](../../templates/submission-checklist.md). Get a thin happy path working early. Preserve at least the last 60–90 minutes before the confirmed cutoff for testing, submission, and rehearsal.
 

@@ -32,10 +32,12 @@ This kit keeps workflows provider-neutral. The tracked source is `skills/`; matc
 
 Set keys in your shell or approved secret manager. Keep `.env` files local; `.gitignore` excludes them. Use a placeholder-only `.env.example` if a project needs to document variable names. Rotate and revoke any key pasted into a public repo, chat, screenshot, or submission.
 
-## Pre-event smoke checks
+## Pre-event readiness (check rules first)
 
-- Sign in to the tools you intend to use.
-- Confirm the CLI starts and the account can reach the service.
-- Check that the team can run its chosen model or API with a harmless test prompt.
-- Ensure the demo path works without relying on a teammate's laptop-only state.
-- Agree on a backup path if venue connectivity, quotas, or permissions fail.
+Confirm with the organizer which kinds of preparation are allowed. Use the [event-day rules and idea strategy](EVENT_DAY_STRATEGY.md) and [competition plan](../templates/competition-plan.md) to record what is permitted and what remains unresolved. Installing a CLI or editor and checking account status are setup tasks only where event rules permit them; they do not grant permission to build event-specific code or make live service calls.
+
+- Install required tools and check local startup within the event's rules.
+- Check account access or entitlements in the service console only if permitted; mark anything that needs a live request as unverified.
+- Treat API calls, model comparisons, test prompts, event-specific code, prepared datasets, and project assets as event-related experiments or work product. Do them only after the organizer's rules explicitly allow them, using approved accounts and inputs.
+- Once permitted, run a small harmless check and record its model/service, configuration, date, and result without exposing keys or private data.
+- Ensure the demo path does not depend on one teammate's laptop-only state, and agree on a fallback if connectivity, quotas, or permissions fail.

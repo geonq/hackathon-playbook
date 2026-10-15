@@ -5,9 +5,16 @@ Use this process for a one-day build. Optimize for a real user completing one va
 ## Before the event
 
 - Verify the organizer's latest brief, arrival details, team rules, submission format, judging schedule, and any pre-build or intellectual-property rules.
-- Set up the required tools and accounts early. Run a tiny end-to-end check only when event rules permit it. Never put a live key in source control.
+- Clear the rules and eligibility gate in the [event-day strategy](EVENT_DAY_STRATEGY.md), then record sources and open questions in the [competition plan](../templates/competition-plan.md).
+- Set up tools and accounts within the organizer's rules. Installation or account readiness does not itself permit event-related code, prompts, data preparation, or API/model calls. Run a live check only when the rules explicitly allow it. Never put a live key in source control.
 - Bring a charged laptop, charger, adapter, headphones, and a way to access the project if venue Wi-Fi is unreliable.
 - Prepare a blank project brief and a short list of questions. Avoid deciding the product before hearing the problem owner.
+
+## Clear the gate before comparing ideas
+
+Confirm eligibility separately for the main event, track, and every challenge or award the team may target. Resolve allowed pre-event work, required technology, data permissions, deliverables, deadlines, and reuse/IP terms. Treat unanswered requirements as unresolved; do not lock an idea whose eligibility depends on them.
+
+Once the gate passes, shortlist no more than three ideas and compare them with the internal scorecard in the [event-day strategy](EVENT_DAY_STRATEGY.md): user value, evidence obtainable today, execution risk, meaningful technical contribution, and explainability. This scorecard is a team decision aid, not an official rubric.
 
 ## Kickoff: find the problem before choosing the product
 
@@ -17,7 +24,7 @@ Ask the problem owner or organizer:
 2. What do they do today? Where do time, errors, or frustration accumulate?
 3. What would a useful first result look like by the end of today?
 4. Which data and systems may the team use? What must stay private or human-reviewed?
-5. What exactly must be submitted, by what time, and what work is allowed before the event?
+5. What exactly must be submitted, by what time, and which setup, code, prompt, data, and API/model experiments are allowed before the event?
 6. Who can judge whether the result is useful, and what would count as evidence?
 
 Write one testable problem statement:
@@ -50,6 +57,8 @@ Give each important job a clear owner, even when one person covers several jobs:
 - **Demo and submission:** confirms rules, prepares the story, checks required links and files, and watches the cutoff.
 
 Use the [team roles template](../templates/team-roles.md) to name owners and backups. Pair people across problem understanding and implementation so the prototype does not drift away from the need.
+
+Record the selected workflow, source-backed eligibility, prior-work provenance, owners, cuts, freeze, and submission cutoff in the [competition plan](../templates/competition-plan.md).
 
 ## Collaborate with coding agents
 

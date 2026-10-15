@@ -10,8 +10,9 @@ The event notes were checked on **15 October 2026**. Event details can change; c
 2. Check the relevant event brief and source ledger:
    - [Claude Code Impact Lab, Berlin · 17 October 2026](events/claude-code-impact-lab-berlin-2026/README.md) and its [prep checklist](events/claude-code-impact-lab-berlin-2026/prep-checklist.md)
    - [Nebius Build Week Hackathon, Berlin · 18 October 2026](events/nebius-build-week-berlin-2026/README.md) and its [prep checklist](events/nebius-build-week-berlin-2026/prep-checklist.md)
-3. Copy the [project brief](templates/project-brief.md) and [team roles](templates/team-roles.md) into a new project workspace.
-4. At kickoff, confirm the real problem, rules, data permissions, deliverable, and deadline before committing to a solution.
+3. Use the [event-day rules and idea strategy](docs/EVENT_DAY_STRATEGY.md) to clear eligibility before comparing ideas, and copy the [competition plan](templates/competition-plan.md) into the project workspace.
+4. Copy the [project brief](templates/project-brief.md) and [team roles](templates/team-roles.md) into the workspace.
+5. At kickoff, confirm the real problem, rules, data permissions, deliverable, and deadline before committing to a solution.
 
 ## Skills
 
@@ -21,8 +22,8 @@ The six skills cover event research, problem framing, scope-to-demo planning, de
 
 ## What is included
 
-- [Universal sprint playbook](docs/PLAYBOOK.md) and [safe-use guide](docs/SAFE_USE.md)
-- Templates for an event brief, project brief, team roles, decision log, demo script, and submission checklist
+- [Universal sprint playbook](docs/PLAYBOOK.md), [event-day rules and idea strategy](docs/EVENT_DAY_STRATEGY.md), and [safe-use guide](docs/SAFE_USE.md)
+- Templates for an event brief, competition plan, project brief, team roles, decision log, demo script, and submission checklist
 - Event briefs with organizer facts separated from secondary listings, recommendations, and unknowns
 - MIT license
 
