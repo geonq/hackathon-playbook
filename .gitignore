@@ -1,0 +1,51 @@
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.mobileprovision
+
+# Operating system and editor state
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/settings.json
+.vscode/launch.json
+
+# Private local agent state. Public repository guidance is tracked at the root.
+/AGENTS.md
+!/AGENTS.md
+/CLAUDE.md
+!/CLAUDE.md
+/PROJECT_CONTEXT.md
+/REFERENCE.md
+/.codex/
+/.claude.json
+/Coordination/
+/tasks/todo.md
+/Tasks/todo.md
+
+# Keep only the shareable skill files from Claude Code's project directory.
+/.claude/*
+!/.claude/skills/
+/.claude/skills/**
+!/.claude/skills/*/
+!/.claude/skills/*/SKILL.md
+
+# Codex discovery copies are generated locally from the tracked skills/ source.
+/.agents/
+
+# Common generated artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+dist/
+build/
+.next/
+.turbo/
+coverage/
+*.xcresult
