@@ -43,6 +43,8 @@ Ask the organizer, challenge owner, or prospective user. Capture the exact answe
 
 Until the organizer confirms the local rule, do not infer that event-specific code, prompts, datasets, or live API/model calls are permitted before the event. Account setup or a successful login does not itself grant permission to build or call a service.
 
+If considering the separate Global contest's Berlin City Winner award, ask an organizer on site: **“Does attending this in-person October 18 Build Week Hackathon qualify as attending a participating Berlin Builders & Brews event for the Global City Winner award?”** Devpost's [rules](https://nebiusglobalaihackathon.devpost.com/rules) name participating IRL Builders & Brews events, and its [FAQ](https://nebiusglobalaihackathon.devpost.com/details/faqs) confirms in-person attendance. The [official Nebius page](https://nebius.com/events/nebius-nvidia-ai-builders-hackathon) and [Luma listing](https://luma.com/big-gtc-hack) make the October 18 event a plausible route, but no official source reviewed confirms or excludes it. The separate September 29 Berlin Builders & Brews listing is context, not a stated prerequisite. Record the organizer's answer and source; if unclear, follow up with Devpost. Keep this optional question from delaying the local 17:30 submission.
+
 ## The 20-minute idea gate
 
 Use 11:00–11:20, or another 20-minute slot within the published onboarding hour that ends before 11:20. This is a team decision check, not an official judging rubric.

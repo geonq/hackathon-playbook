@@ -35,13 +35,15 @@ The Global rules list **$20,000, $10,000, and $6,000 Overall Awards**, a Jetson 
 
 - **Best Use of Tavily:** $3,000; the project makes a functional runtime call to the Tavily API as part of its solution.
 - **Most Valuable Feedback:** $100 and an NVIDIA swag pack; the entrant completes the feedback submission section, which is evaluated for completeness, viability, and potential impact.
-- **City Winner:** $500; the entrant attended one of the named participating IRL Builders & Brews events, including Berlin.
+- **City Winner:** $500; the entrant attends in person at one of the named participating IRL Builders & Brews events, including Berlin. The [Devpost FAQ](https://nebiusglobalaihackathon.devpost.com/details/faqs) confirms in-person attendance is required.
 
 Do not count on the bonus awards as guaranteed outcomes. Check the [official rules](https://nebiusglobalaihackathon.devpost.com/rules) for current categories and eligibility.
 
-### Berlin City Winner is unresolved for the 18 October event
+### Berlin City Winner and the 18 October event
 
-The [Global rules](https://nebiusglobalaihackathon.devpost.com/rules) list participating Builders & Brews city events and include Berlin. Nebius's [Builders & Brews event page](https://nebius.com/events/builders-and-brews) lists Berlin on **29 September**; the linked [Berlin Luma event](https://luma.com/kpdwf7ej) identifies w3.hub. The 18 October local event is separately listed as the **Nebius Build Week Hackathon** at Delta Campus + CODE University. The public sources checked do not say that attending the October 18 hackathon counts as attending the Berlin Builders & Brews event. Ask Devpost or Nebius for written confirmation before relying on Berlin City Winner eligibility.
+The [Global rules](https://nebiusglobalaihackathon.devpost.com/rules) list participating IRL Builders & Brews city events and include Berlin; the [Devpost FAQ](https://nebiusglobalaihackathon.devpost.com/details/faqs) confirms the City Winner requires attending the city's event in person. Nebius's [Builders & Brews page](https://nebius.com/events/builders-and-brews) lists a Berlin event on **29 September**, and its [Luma listing](https://luma.com/kpdwf7ej) identifies w3.hub. That separate listing is context; it does not establish that September 29 attendance is a prerequisite for an October 18 entry.
+
+The **18 October Nebius Build Week Hackathon** is also an in-person event at Delta Campus + CODE University. The [official Nebius event page](https://nebius.com/events/nebius-nvidia-ai-builders-hackathon) and [Luma listing](https://luma.com/big-gtc-hack) identify it as a separate Nebius Build Week hackathon hosted by {Tech: Europe} x The Delta x CODE University, with Nebius/NVIDIA and a dedicated Nemotron challenge. It is a plausible route to Berlin City Winner eligibility, but no official source reviewed confirms or excludes it. Ask an organizer at Sunday's event whether attendance qualifies, and record the answer and its source. If the answer is unclear, check with Devpost before claiming eligibility.
 
 ## Local Sunday work and Global submission are separate
 
@@ -55,6 +57,8 @@ Before publishing, confirm every contributor's rights to code, prompts, data, an
 
 - [Nebius x NVIDIA Global AI Hackathon overview and submission page](https://nebiusglobalaihackathon.devpost.com/)
 - [Nebius x NVIDIA Global AI Hackathon official rules](https://nebiusglobalaihackathon.devpost.com/rules)
+- [Nebius x NVIDIA Global AI Hackathon FAQ](https://nebiusglobalaihackathon.devpost.com/details/faqs)
 - [Nebius Builders & Brews event page](https://nebius.com/events/builders-and-brews)
 - [Builders & Brews: Berlin, 29 September 2026](https://luma.com/kpdwf7ej)
 - [Separate Nebius Build Week Hackathon Berlin event page](https://nebius.com/events/nebius-nvidia-ai-builders-hackathon)
+- [Separate Nebius Build Week Hackathon Berlin Luma listing](https://luma.com/big-gtc-hack)
