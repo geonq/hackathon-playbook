@@ -9,7 +9,8 @@ The event notes were checked on **15 October 2026**. Event details can change; c
 1. Read the [sprint playbook](docs/PLAYBOOK.md) and [tool setup guide](docs/SETUP.md).
 2. Check the relevant event brief and source ledger:
    - [Claude Code Impact Lab, Berlin · 17 October 2026](events/claude-code-impact-lab-berlin-2026/README.md) and its [prep checklist](events/claude-code-impact-lab-berlin-2026/prep-checklist.md)
-   - [Nebius Build Week Hackathon, Berlin · 18 October 2026](events/nebius-build-week-berlin-2026/README.md) and its [prep checklist](events/nebius-build-week-berlin-2026/prep-checklist.md)
+   - [Nebius Build Week Hackathon, Berlin · 18 October 2026](events/nebius-build-week-berlin-2026/README.md), [Sunday field plan](events/nebius-build-week-berlin-2026/field-plan.md), and [prep checklist](events/nebius-build-week-berlin-2026/prep-checklist.md)
+   - Separate online [Nebius x NVIDIA Global AI Hackathon · Devpost](events/nebius-global-ai-hackathon-2026/README.md) and its [prep checklist](events/nebius-global-ai-hackathon-2026/prep-checklist.md): its own registration, rules, deadline, and submission; a local Berlin entry does not register or qualify a project automatically.
 3. Use the [event-day rules and idea strategy](docs/EVENT_DAY_STRATEGY.md) to clear eligibility before comparing ideas, and copy the [competition plan](templates/competition-plan.md) into the project workspace.
 4. Copy the [project brief](templates/project-brief.md) and [team roles](templates/team-roles.md) into the workspace.
 5. At kickoff, confirm the real problem, rules, data permissions, deliverable, and deadline before committing to a solution.

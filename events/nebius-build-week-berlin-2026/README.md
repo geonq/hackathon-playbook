@@ -2,6 +2,8 @@
 
 **Checked:** 15 October 2026. Recheck the event page and your approval/attendee email for changes.
 
+For the day-of schedule, decision gate, execution priorities, evaluation, and pitch, use the [Sunday field plan](field-plan.md) alongside this event brief and the [prep checklist](prep-checklist.md).
+
 ## Confirmed event details
 
 The [official Nebius event page](https://nebius.com/events/nebius-nvidia-ai-builders-hackathon) lists Sunday, 18 October 2026, at Delta Campus + CODE University, Donaustraße 44, 12043 Berlin. It describes around 250 builders, workshops, more than six hours of hacking, onsite mentors, final demos, and judging. Attendance is approval-based.
@@ -53,14 +55,18 @@ Before building or making a live API/model request, confirm the submission forma
 
 ### Nemotron challenge preparation
 
-The official listing confirms a dedicated NVIDIA Nemotron challenge through Token Factory, but it does not specify eligible model IDs, minimum use, separate registration or submission, or whether an entry can qualify for both a main track and the Nemotron challenge. Ask the organizers. Do not hardcode a model ID or treat a model's appearance in the public catalog as confirmation of event eligibility or account access.
+The official listing confirms a dedicated NVIDIA Nemotron challenge through Token Factory, but it does not specify eligible model IDs, minimum use, separate registration or submission, or whether one project can qualify for both a main track and the Nemotron challenge. Use the [Sunday field plan](field-plan.md) to choose among an integrated entry, a separate Nemotron entry if allowed and feasible, or main-track-only. Do not hardcode a model ID or treat a model's appearance in the public catalog as confirmation of event eligibility or account access.
 
-If the organizers confirm that one project may enter both, build one coherent user workflow where Nemotron has a necessary, visible role and keep a Token Factory request trace with secrets and private data removed. Once rules permit live tests, a useful internal evaluation is about 8–12 approved cases plus a baseline on the same cases. Record the model ID actually used, endpoint, request configuration, test date, task success, unsupported assertions, latency, failures, and token counts when returned. Test any required JSON schema or tool flow against that exact model. Bound concurrency and retries. If the live demo uses a fallback instead of Nemotron, disclose what ran. Keep any earlier verified Nemotron test trace separate and do not imply the fallback itself proves Nemotron execution.
+If the confirmed route supports an integrated entry, build one coherent user workflow where Nemotron has a necessary, visible role and keep a Token Factory request trace with secrets and private data removed. If a separate Nemotron entry is allowed, pursue it only if the official prompt and requirements are clear and it will not endanger the working demo or local cutoff. Once rules permit live tests, a useful internal evaluation is about 8–12 approved cases plus a baseline on the same cases. Record the model ID actually used, endpoint, request configuration, test date, task success, unsupported assertions, latency, failures, and token counts when returned. Test any required JSON schema or tool flow against that exact model. Bound concurrency and retries. If the live demo uses a fallback instead of Nemotron, disclose what ran. Keep any earlier verified Nemotron test trace separate and do not imply the fallback itself proves Nemotron execution.
 
 If also attending the Claude Impact Lab the day before, keep the projects and materials separate. Reuse Saturday code, data, prompts, assets, or a project only if both events' rules or organizers explicitly permit it; disclose reuse when required.
 
 Use the [prep checklist](prep-checklist.md), [project brief](../../templates/project-brief.md), [decision log](../../templates/decision-log.md), and [submission checklist](../../templates/submission-checklist.md). Get a thin happy path working early. Preserve at least the last 60–90 minutes before the confirmed cutoff for testing, submission, and rehearsal.
 
+## Separate online Global AI Hackathon
+
+The [Nebius x NVIDIA Global AI Hackathon](../nebius-global-ai-hackathon-2026/README.md) is a separate online Devpost contest with its own registration, deadline, platform/model requirements, submission materials, and judging. It is not the local event's rubric or an automatic second entry. A Sunday project is only a possible Global candidate if local pre-build, ownership, data, publication, and reuse terms allow it and the Global rules are independently met. The Global rules' financial/preferential-support clause may need a written interpretation for local event credits or support; do not assume either eligibility or disqualification.
+
 ## Unknowns and limits
 
-The public pages do not specify exact team sizes, challenge prompts, judging rubric, prize values, submission platform or format, pre-build/IP rules, participant credit amounts, or whether each sponsor technology is required. Luma shows 450 “Going,” but the event is approval-based; that platform count is not confirmed attendance. Luma hides the exact address while the Nebius page publishes it. See the [source ledger](sources.md).
+The public pages do not specify exact team sizes, challenge prompts, judging rubric, prize values, submission platform or format, pre-build/IP rules, participant credit amounts, or whether each sponsor technology is required. Luma's “Going” count is a platform indicator, not confirmed approved attendance. Luma hides the exact address while the Nebius page publishes it. See the [source ledger](sources.md).
